@@ -1,0 +1,639 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{background-color: black;}
+/* header */
+.navigation{
+    max-height: 70px;
+    /* background-color: rgba(255, 255, 255, 0.192); */
+}
+nav{
+    max-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.brand{
+   max-width: 100px;
+   box-sizing: border-box;
+}
+.nav{
+   
+    float: right;
+
+   padding: auto 0;
+}
+.menu{
+list-style: none;
+display: flex;
+}
+.menu li{
+    padding: 0 25px;
+}
+
+.menu li:hover a{
+    color: red;
+    transition: all 0.8s;
+}
+.nav a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 16px;
+}
+.cta-1{
+    padding: 15px 30px;
+    border-radius: 10px;
+    border:none;
+    background-color:red;
+    color: aliceblue;
+}
+
+/* hình nền */
+header{
+    width: 100vw;
+    height: 100vh;
+   background-image:
+  linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+    url(https://ecdn.game4v.com/g4v-content/uploads/2021/12/31102939/NWH-hau-truong-2-game4v-1640921378-83.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/* phần 2 */
+.phan-2{
+    display: flex;
+    align-items: center;
+}
+/* card-1 */
+.card-1{
+    width: 100%;
+    height:600px;
+    background-image: url("https://cdn1-production-images-kly.akamaized.net/5M8cHrSKI_s9oI2okXG3QjmIoRI=/640x853/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3635478/original/025116000_1637133546-253154135_2120128131476179_3401639978712735642_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    }
+/* text card-1 */
+.year{
+    color: aliceblue;
+    font-size: 20px;
+}
+.h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.the-loai{
+    list-style: none;
+    display: flex;
+}
+.the-loai li{
+    color: rgb(181, 181, 181);
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.content-1{
+    padding-top: 10px;
+    color: aliceblue;
+    width: 80%;
+    font-size: 16px;
+    
+}
+.cta-card1 {
+    padding: 20px 30px;
+    border-radius: 0 30px 0 0;
+    margin: 0.5em;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+   .cta-card2 {
+    padding: 20px 30px;
+    margin: 0.5em;
+    border-radius: 0px 30px 0px 0px;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+.box-text1{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* phần 3 */
+.phan-3{
+    padding: 50px 0;
+}
+.open{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.new-movie{
+    display: flex;
+}
+.card-mov{
+    width:100%;
+    /* height: 700px; */
+    /* background-color: antiquewhite; */
+}
+
+.img-mov1{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    background-image: url("https://ecdn.game4v.com/g4v-content/uploads/2022/02/01185614/Guardian-of-the-Galaxy-Vol-3-1643716573-43.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mov2{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    background-image: url("https://m.media-amazon.com/images/I/71F9xOlmd3L._AC_UF894,1000_QL80_.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mov3{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    background-image: url("https://upload.wikimedia.org/wikipedia/vi/a/a3/The_Marvels_teaser_poster.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mov4{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/324253504_1660172831071973_6944459287307640902_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=SoDwAq9Bl-UAX9mSJrd&_nc_ht=scontent.fsgn8-4.fna&oh=00_AfC-sj5S1-vuwtKRyXwczvdy7bnR1kHE5VzbEN-R6Z8KPQ&oe=64DABB04");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-mov{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-mov2{display: flex;justify-content: space-between;}
+
+.tex-1{
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    font-weight: 400;
+}
+.tex-2{
+    color:  rgb(146, 146, 146);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 150px;
+}
+/* phần 4 */
+
+.background{
+    width:100%;
+    height: 450px;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+     url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/846a9086-8a40-43e0-aa10-2fc7d6d73730/dffpobp-1a85ad18-f25e-4f7d-bf47-214ebd877c28.jpg/v1/fill/w_1280,h_500,q_75,strp/black_panther_wakanda_forever___banner_textless_by_mintmovi3_dffpobp-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvODQ2YTkwODYtOGE0MC00M2UwLWFhMTAtMmZjN2Q2ZDczNzMwXC9kZmZwb2JwLTFhODVhZDE4LWYyNWUtNGY3ZC1iZjQ3LTIxNGViZDg3N2MyOC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.BNR_Yheyp7pEXbVCoyyMvnk469q-oTFGHcVeyNS-OsM");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trend{
+    display: flex;
+justify-content: center;}
+
+.trend-content{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 200;
+}
+
+.trend-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.tr-button1 {
+    padding: 15px 30px;
+    margin: 0.5em;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+   .tr-button2 {
+    padding: 15px 30px;
+    margin: 0.5em;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+.trend-text{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    bottom: 380px;
+}
+
+/* phần 5 */
+.phan-5{padding: 50px 0;}
+.mama{display: flex;
+justify-content: center;}
+.papa{
+    display: flex;
+    justify-content: center;
+}
+.THE-LATEST{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 20PX;
+    }
+
+/* card-new */
+.news-1{display: flex;}
+.img-news{
+    width: 100%;
+    height: 250px;
+    background-image: url("https://cdn.marvel.com/content/1x/civil_war_2006_7_resized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-news1{
+    width: 100%;
+    height: 250px;
+    background-image: url("https://cdn.marvel.com/content/1x/marvel_strike_force_sylvie_loki.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-news2{
+    width: 100%;
+    height: 250px;
+    background-image: url("https://cdn.marvel.com/content/1x/gotg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tex-news{
+    color: rgb(142, 142, 142);
+    padding-top:10px ;}
+.tex-news1{
+    color: rgb(255, 0, 0);
+    padding-top:5px ;
+font-size: 20px;}
+.tex-news2{
+    color: rgb(142, 142, 142);
+    padding-top:10px ;
+font-weight: 400;
+font-size: 14px;}
+
+.cta-news {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .cta-news:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+ .cta-news:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: red;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .cta-news:hover::before {
+    width: 160%;
+  }
+    
+/* phần 6 */
+.phan-6{
+    background-color: rgb(27, 27, 27);
+    height: 535px;
+}
+.img-end{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://imgx.sonora.id/crop/0x0:0x0/x/photo/2021/12/23/doctor-strange-multiverse-madnes-20211223103130.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.end-1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box-end1{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.year1{
+    color: aliceblue;
+    font-size: 20px;
+}
+.h-end{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.the-loai-end{
+    list-style: none;
+    display: flex;
+}
+.the-loai-end li{
+    color: rgb(181, 181, 181);
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.content-end1{
+    padding-top: 10px;
+    color: aliceblue;
+    width: 100%;
+    font-size: 16px;
+    
+}
+.cta-end1 {
+    padding: 20px 30px;
+    border-radius: 0 30px 0 0;
+    margin: 0.5em;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+   .cta-end2 {
+    padding: 20px 30px;
+    margin: 0.5em;
+    border-radius: 0px 30px 0px 0px;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+.box-text1{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* phút tờ */
+.logo-footer{
+    width: 250px;
+}
+
+.menu-footer{
+    list-style: none;
+    display: flex;
+}
+
+.menu-footer li{
+    color: rgb(181, 181, 181);
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 0 40px;
+}
+
+.cuoi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mau-do{
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 30px;
+}
